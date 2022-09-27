@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-26T22:21:42 IST" name="Suite" finished-at="2022-09-26T22:24:19 IST" duration-ms="156516">
+    <groups>
+    </groups>
+    <test started-at="2022-09-26T22:21:42 IST" name="Test" finished-at="2022-09-26T22:24:19 IST" duration-ms="156516">
+      <class name="Tests.FilterTesterSecond">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Tests.FilterTesterSecond@2bbf180e]" started-at="2022-09-26T22:22:07 IST" name="openBrowser" finished-at="2022-09-26T22:22:18 IST" duration-ms="11263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="getURL(java.lang.String)[pri:0, instance:Tests.FilterTesterSecond@2bbf180e]" started-at="2022-09-26T22:22:18 IST" name="getURL" finished-at="2022-09-26T22:22:24 IST" depends-on-methods="Tests.FilterTesterSecond.openBrowser" duration-ms="6070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://app.forestadmin.com/Live%20Demo/Production/Operations/data/806052/in dex]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="selectHeadquarterFilterInRejectedCustomers(java.lang.String)[pri:0, instance:Tests.FilterTesterSecond@2bbf180e]" started-at="2022-09-26T22:23:43 IST" name="selectHeadquarterFilterInRejectedCustomers" data-provider="placeName" finished-at="2022-09-26T22:24:04 IST" duration-ms="20205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectHeadquarterFilterInRejectedCustomers -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.FilterTesterSecond@2bbf180e]" started-at="2022-09-26T22:24:04 IST" name="close" finished-at="2022-09-26T22:24:04 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.FilterTesterSecond@2bbf180e]" started-at="2022-09-26T22:24:04 IST" name="getResult" finished-at="2022-09-26T22:24:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectHeadquarterFilterInRejectedCustomers status=SUCCESS method=FilterTesterSecond.selectHeadquarterFilterInRejectedCustomers(java.lang.String)[pri:0, instance:Tests.FilterTesterSecond@2bbf180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.FilterTesterSecond -->
+      <class name="Tests.SortingTester">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Tests.SortingTester@163e4e87]" started-at="2022-09-26T22:22:44 IST" name="openBrowser" finished-at="2022-09-26T22:22:58 IST" duration-ms="14593" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="getURL(java.lang.String)[pri:0, instance:Tests.SortingTester@163e4e87]" started-at="2022-09-26T22:22:58 IST" name="getURL" finished-at="2022-09-26T22:23:09 IST" depends-on-methods="Tests.SortingTester.openBrowser" duration-ms="10663" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://app.forestadmin.com/Live%20Demo/Production/Operations/data/806052/in dex]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="testSorting()[pri:0, instance:Tests.SortingTester@163e4e87]" started-at="2022-09-26T22:24:04 IST" name="testSorting" finished-at="2022-09-26T22:24:18 IST" duration-ms="14479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSorting -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.SortingTester@163e4e87]" started-at="2022-09-26T22:24:18 IST" name="close" finished-at="2022-09-26T22:24:19 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.SortingTester@163e4e87]" started-at="2022-09-26T22:24:19 IST" name="getResult" finished-at="2022-09-26T22:24:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSorting status=SUCCESS method=SortingTester.testSorting()[pri:0, instance:Tests.SortingTester@163e4e87] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.SortingTester -->
+      <class name="Tests.FilterTester">
+        <test-method is-config="true" signature="ExtentReport()[pri:0, instance:Tests.FilterTester@4e91d63f]" started-at="2022-09-26T22:21:42 IST" name="ExtentReport" finished-at="2022-09-26T22:21:42 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExtentReport -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Tests.FilterTester@4e91d63f]" started-at="2022-09-26T22:21:42 IST" name="openBrowser" finished-at="2022-09-26T22:21:57 IST" duration-ms="15226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="getURL(java.lang.String)[pri:0, instance:Tests.FilterTester@4e91d63f]" started-at="2022-09-26T22:21:57 IST" name="getURL" finished-at="2022-09-26T22:22:07 IST" depends-on-methods="Tests.FilterTester.openBrowser" duration-ms="9262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://app.forestadmin.com/Live%20Demo/Production/Operations/data/806052/in dex]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="selectPendingFilterInLiveCustomers()[pri:0, instance:Tests.FilterTester@4e91d63f]" started-at="2022-09-26T22:23:09 IST" name="selectPendingFilterInLiveCustomers" finished-at="2022-09-26T22:23:30 IST" duration-ms="20986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPendingFilterInLiveCustomers -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.FilterTester@4e91d63f]" started-at="2022-09-26T22:23:30 IST" name="close" finished-at="2022-09-26T22:23:31 IST" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.FilterTester@4e91d63f]" started-at="2022-09-26T22:23:31 IST" name="getResult" finished-at="2022-09-26T22:23:31 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectPendingFilterInLiveCustomers status=SUCCESS method=FilterTester.selectPendingFilterInLiveCustomers()[pri:0, instance:Tests.FilterTester@4e91d63f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.FilterTester@4e91d63f]" started-at="2022-09-26T22:24:24 IST" name="tearDown" finished-at="2022-09-26T22:24:24 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.FilterTester -->
+      <class name="Tests.SearchTester">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:Tests.SearchTester@d4342c2]" started-at="2022-09-26T22:22:24 IST" name="openBrowser" finished-at="2022-09-26T22:22:35 IST" duration-ms="10715" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="getURL(java.lang.String)[pri:0, instance:Tests.SearchTester@d4342c2]" started-at="2022-09-26T22:22:35 IST" name="getURL" finished-at="2022-09-26T22:22:44 IST" depends-on-methods="Tests.SearchTester.openBrowser" duration-ms="9033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://app.forestadmin.com/Live%20Demo/Production/Operations/data/806052/in dex]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getURL -->
+        <test-method signature="searchFunction(java.lang.String)[pri:0, instance:Tests.SearchTester@d4342c2]" started-at="2022-09-26T22:23:31 IST" name="searchFunction" data-provider="searchPerson" finished-at="2022-09-26T22:23:43 IST" duration-ms="12024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enerkem]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFunction -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Tests.SearchTester@d4342c2]" started-at="2022-09-26T22:23:43 IST" name="close" finished-at="2022-09-26T22:23:43 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Tests.SearchTester@d4342c2]" started-at="2022-09-26T22:23:43 IST" name="getResult" finished-at="2022-09-26T22:23:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchFunction status=SUCCESS method=SearchTester.searchFunction(java.lang.String)[pri:0, instance:Tests.SearchTester@d4342c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- Tests.SearchTester -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
